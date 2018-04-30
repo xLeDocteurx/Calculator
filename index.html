@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+    <title>Calculatrice</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+	<link rel="stylesheet" href="style.css">
+	<script language="javascript" type="text/javascript" src="scripts.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+	
+	<div id="calculator">
+		<h4 id="titre">THX - 11 38</h4>
+		<div id="screen"></div>
+		
+		<div id="buttons-container">
+			<button class="button digit" onclick="makeANumber(7)">7</button>
+			<button class="button digit" onclick="makeANumber(8)">8</button>
+			<button class="button digit" onclick="makeANumber(9)">9</button>
+			<button class="button digit" onclick="cc()">CE</button>
+			<button class="button digit" onclick="cc()">C</button>
+			<br>
+	
+			<button class="button digit" onclick="makeANumber(4)">4</button>
+			<button class="button digit" onclick="makeANumber(5)">5</button>
+			<button class="button digit" onclick="makeANumber(6)">6</button>
+			<button class="button operator" onclick="getOperator(this)">/</button>
+			<button class="button operator" onclick="getOperator(this)">*</button>
+			<br>
+	
+			<button class="button digit" onclick="makeANumber(1)">1</button>
+			<button class="button digit" onclick="makeANumber(2)">2</button>
+			<button class="button digit" onclick="makeANumber(3)">3</button>
+			<button class="button operator" onclick="getOperator(this)">-</button>
+			<button id="plus" class="button operator" onclick="getOperator(this)">+</button>
+			<br>
+	
+			<button id="zero" class="button digit" onclick="makeANumber(0)">0</button>
+			<button class="button digit" onclick="makeANumber(.)">.</button>
+			<button class="button operator equa" onclick="calculate()">=</button>
+		</div>
+	</div>
+    
+
+</body>
+</html>

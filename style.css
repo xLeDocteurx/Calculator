@@ -1,0 +1,139 @@
+body {
+
+    text-shadow: #f4e5dd;
+    color: #204f61;
+    text-shadow:    1px 0 0 #cfe5ba, 
+                    0 1px 0 #cfe5ba, 
+                    0 -1px 0 #cfe5ba, 
+                    -1px 0 0 #cfe5ba;
+
+    background-color : #cfe5ba;
+
+/*    text-align: center; 
+font-family: 'Open Sans', sans-serif;*/
+
+font-family: 'IBM Plex Serif', serif;
+
+
+}
+
+@font-face {
+	font-family: "Digital";
+	src: url('digital.ttf');
+}
+
+#text {
+
+    width: 0px;
+    height: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    margin: 0px;
+
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+#calculator {
+
+    width: 220px;
+    height: 320px;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #85b9c4;
+    border-right: 5px solid #384852;
+    border-bottom: 5px solid #384852;
+    border-left: 5px solid #417d97;
+    border-top: 5px solid #417d97; 
+
+    border-radius: 15px;
+}
+
+#screen {
+
+    width: 80%;
+    height: 45px;
+
+    background-color: #c4dbdf;
+    border-right: 3px solid #417d97;
+    border-bottom: 3px solid #417d97;
+    border-left: 3px solid #384852;
+    border-top: 3px solid #384852;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 15px;
+    padding-right: 10px;
+
+    text-align: right;
+    font-family: "digital";
+	font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+#buttons-container {
+
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+.button {
+    
+    margin-top: 5px;
+    margin-left: 2px;
+
+    background-color: #c4dbdf;
+/*    border: 1px solid black;   */
+    border-right: 2px solid #384852;
+    border-bottom: 2px solid #384852;
+    border-left: 2px solid #417d97;
+    border-top: 2px solid #417d97;
+
+    border-radius: 5px;
+}
+
+.button:active {
+
+    border-right: 2px solid #417d97;
+    border-bottom: 2px solid #417d97;
+    border-left: 2px solid #384852;
+    border-top: 2px solid #384852;
+}
+
+.digit {
+    
+    width: 35px;
+    height: 35px;
+}
+
+.operator {
+    
+    width: 35px;
+    height: 35px;
+}
+
+#zero {
+
+    width: 76px;
+}
+
+#plus {
+
+    display: block;
+    float: right;
+    
+    margin-right: 11px;
+
+    height: 75px;
+}
+
+/*.equa {
+
+}*/
